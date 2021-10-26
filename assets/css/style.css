@@ -1,0 +1,127 @@
+/* <header-start> */
+
+.main-section {
+	min-height: 100vh;
+	background: #000 url("../images/background.png") left top;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.top-header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	right: 100px;
+}
+
+.top-header .logo-wrapper {
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.logo-wrapper img {
+	width: 50px;
+}
+
+.msg-wrap {
+	padding: 7px 20px;
+	border-radius: 10px;
+	background: rgba(66, 64, 64, 0.8);
+	text-align: center;
+}
+
+.content-section figure {
+   max-width: 800px;
+}
+
+.content-section figure img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.btn-wrapper {
+	position: fixed;
+	right: 40px;
+	bottom: 30px;
+}
+
+.right-block {
+	position: absolute;
+	right: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.right-block .top-bar {
+	border-radius: 50%;
+	padding: 5px;
+	background: chartreuse;
+	margin-bottom: 15px;
+}
+
+.right-block .top-bar figure {
+	border-radius: 50%;
+	border: solid 1px #fff;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.right-block .top-bar i {
+	font-size: 30px;
+    color: #fff;
+}
+
+.details-page {
+	background: #2e2e2e;
+	min-height: 100vh;
+	text-align: center;
+	padding: 40px;
+}
+
+.details-page >h2 {
+	margin-bottom: 30px;
+}
+
+.tabs {
+	display: inline-block;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: gray;
+	margin-bottom: 30px;
+}
+
+.tabs >li {
+	display: inline-block;
+	font-size: 13px;
+	color: #fff;
+	line-height: 1.1;
+	padding: 10px;
+	min-width: 140px;
+	cursor: pointer;
+}
+
+.tabs >li.active {
+	background-color: chartreuse;
+	color: #000;
+    border-radius: 4px;
+}
+
+.details-page p {
+	margin-bottom: 30px;
+}
+
+.details-page .back-arrow {
+	position: absolute;
+    top: 26px;
+    left: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.scanner-img  img {
+	width: 410px;
+}
